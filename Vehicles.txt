@@ -1,0 +1,30 @@
+------------------------------------
+Vehicle    :	Car
+Number Plate    :	WP-6201
+Brand  :	BMW
+Maximum Speed  :	80
+Model  :	SS-6
+Number of Seats    :	4
+Gear Type  :	MANUAL
+Fuel Type  :	DECAL
+
+------------------------------------
+Vehicle    :	Motorbike
+Number Plate    :	WP-456
+Brand  :	KTM
+Maximum Speed  :	90
+Model  :	Duke
+Power Type    :	PETROL
+Category  :	Sports
+Staring type  :	null
+
+------------------------------------
+Vehicle    :	Motorbike
+Number Plate    :	WP-4754
+Brand  :	KTM
+Maximum Speed  :	90
+Model  :	Duke
+Power Type    :	PETROL
+Category  :	Sports
+Staring type  :	null
+
