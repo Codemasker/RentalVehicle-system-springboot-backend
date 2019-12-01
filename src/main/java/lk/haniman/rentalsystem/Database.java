@@ -23,10 +23,6 @@ public class Database {
         mongoClient = MongoClients.create("mongodb://haniman:hello1234@rentalsystem-shard-00-00-ng0sk.mongodb.net:27017,rentalsystem-shard-00-01-ng0sk.mongodb.net:27017,rentalsystem-shard-00-02-ng0sk.mongodb.net:27017/test?ssl=true&replicaSet=Rentalsystem-shard-0&authSource=admin&retryWrites=true&w=majority");
         database = mongoClient.getDatabase("rentalsystem");
         collection = database.getCollection("vehicles");
-
-
-
-
     }
 
 

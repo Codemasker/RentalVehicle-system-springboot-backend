@@ -1,7 +1,7 @@
 package lk.haniman.rentalsystem;
 
-        import java.util.Date;
-        import java.util.List;
+import java.util.Date;
+import java.util.List;
 
 interface Reservation {
     public void book(Schedule schedule);

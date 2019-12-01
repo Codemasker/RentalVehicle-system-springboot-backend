@@ -16,8 +16,8 @@ public class WestminsterRentalVehicleManager implements RentalVehicleManager {
     private Database database;
 
     public WestminsterRentalVehicleManager() {
-        // reduce mongodb logging
-        // reference from stackoverflow
+        // disable mongodb logging
+        // reference from stackOverflow
         // https://stackoverflow.com/questions/30137564/how-to-disable-mongodb-java-driver-logging
         ((LoggerContext) LoggerFactory.getILoggerFactory()).getLogger("org.mongodb.driver").setLevel(Level.ERROR);
         // initial array list with limit
@@ -110,7 +110,6 @@ public class WestminsterRentalVehicleManager implements RentalVehicleManager {
     @Override
     public boolean exsits(String numberPlate){
         // check vehicle item into array list
-        Date date;
         return vehicles.contains(new Car(numberPlate))||vehicles.contains(new Motorbike(numberPlate));
     }
 }
