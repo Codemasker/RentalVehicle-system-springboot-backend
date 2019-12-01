@@ -1,6 +1,5 @@
 package lk.haniman.rentalsystem;
 
-import java.util.Objects;
 
 public class Motorbike extends Vehicle{
     private String starting;

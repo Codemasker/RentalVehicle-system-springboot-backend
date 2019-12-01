@@ -17,10 +17,12 @@ import java.util.*;
 @RestController
 public class Main {
 
+    // declare objects
     private static RentalVehicleManager rentalVehicleManager;
     private static Reservation reservationManager;
 
     public static void main(String[] args) {
+        // initial objects
         rentalVehicleManager = new WestminsterRentalVehicleManager();
         reservationManager = new ReservationManager();
 

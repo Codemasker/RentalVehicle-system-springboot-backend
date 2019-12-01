@@ -1,7 +1,5 @@
 package lk.haniman.rentalsystem;
 
-import java.util.Objects;
-
 public class Car extends Vehicle {
     private int numberOfSeat;
     private String gearType;
